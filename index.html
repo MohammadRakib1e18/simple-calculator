@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="my-4">
+        <h1 class="font-semibold text-4xl">Simple JavaScript Calculator</h1>
+    </header>
+
+    <main class="flex justify-center items-center">
+        <div id="main-border">
+            <div id="output" class="flex justify-end items-center ">
+                <p id="outputText" class="font-semibold text-4xl text-yellow-800"></p>
+            </div>
+            <div id="buttons" class="grid grid-cols-4 gap-4">
+                <button id="one" class="bg-purple-600 hover:bg-purple-700 text-white focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 rounded">1</button>
+                <button id="two" class="bg-purple-600 hover:bg-purple-700 text-white focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 rounded">2</button>
+                <button id="three" class="bg-purple-600 hover:bg-purple-700 text-white focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 rounded">3</button>
+                <button id="plus" class="bg-red-600 hover:bg-red-700 text-white focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-opacity-50 rounded">+</button>
+
+                <button id="four" class="bg-purple-600 hover:bg-purple-700 text-white focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 rounded">4</button>
+                <button id="five" class="bg-purple-600 hover:bg-purple-700 text-white focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 rounded">5</button>
+                <button id="six" class="bg-purple-600 hover:bg-purple-700 text-white focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 rounded">6</button>
+                <button id="minus" id="one" class="bg-red-600 hover:bg-red-700 text-white focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-opacity-50 rounded">-</button>
+
+                <button id="seven" class="bg-purple-600 hover:bg-purple-700 text-white focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 rounded">7</button>
+                <button id="eight" class="bg-purple-600 hover:bg-purple-700 text-white focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 rounded">8</button>
+                <button id="nine" class="bg-purple-600 hover:bg-purple-700 text-white focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 rounded">9</button>
+                <button id="multiply" class="bg-red-600 hover:bg-red-700 text-white focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-opacity-50 rounded">X</button>
+
+                <button id="clear" class="bg-gray-600 hover:bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-gray-600 focus:ring-opacity-50 rounded">C</button>
+                <button id="zero" class="bg-purple-600 hover:bg-purple-700 text-white focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 rounded">0</button>
+                <button id="equal" class="bg-purple-600 hover:bg-purple-700 text-white focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 rounded">=</button>
+                <button id="division" class="bg-red-600 hovered-700 text-white focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-opacity-50 rounded">/</button>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
